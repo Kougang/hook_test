@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import React from 'react';
+import React, {useState} from 'react';
 // =======premiere zone de test useState =======
   // import ClassState from './components/ClassState';
   // import FunctionState from './components/FunctionState';
@@ -25,10 +25,14 @@ import React from 'react';
 // import Count from './components/useReducer/Count';
 
 // =======useCallback =======
+// import Appli from './components/useCallback/Appli';
+
+// =======useMemo=======
+import Appli from './components/useMemo/Appli';
 
 function App() {
 
-
+  
 
   return (
     <div className="App">
@@ -59,8 +63,11 @@ function App() {
       {/* <Count/> */}
 
       {/*=======useCallback=======*/}
-      
+      {/*<Appli/>*/}
 
+      {/*=======useMemo=======*/}
+
+      <Appli/>
 
 
     </div>
