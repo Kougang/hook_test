@@ -22,17 +22,28 @@ import React, {useState} from 'react';
   // fin useContext
 
 // =======useReducer =======
-// import Count from './components/useReducer/Count';
+  // import Count from './components/useReducer/Count';
 
 // =======useCallback =======
-// import Appli from './components/useCallback/Appli';
+  // import Appli from './components/useCallback/Appli';
 
 // =======useMemo=======
-import Appli from './components/useMemo/Appli';
+  // import Appli from './components/useMemo/Appli';
+
+// =======useRef=======
+  // import Input from './components/useRef/Input';
+  // import Title from './components/useRef/Title';
+
+// =======useImperativeHandle=======
+  // import Apli from './components/useImperativeHandle/Apli';
+
+// =======useImperativeHandle=======
+  // import Appli from  './components/useLayoutEffet/Appli';
+
+
 
 function App() {
 
-  
 
   return (
     <div className="App">
@@ -67,7 +78,18 @@ function App() {
 
       {/*=======useMemo=======*/}
 
-      <Appli/>
+      {/*<Appli/>*/}
+
+      {/*=======useRef=======*/}
+
+      {/*<Input/>*/}
+      {/*<Input/>*/}
+
+      {/*=======useImperativeHandle=======*/}
+      {/*<Apli/>*/}
+
+      {/*=======useImperativeHandle=======*/}
+      {/*<Appli/>*/}
 
 
     </div>
